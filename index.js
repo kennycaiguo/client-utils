@@ -7,7 +7,7 @@ import { serviceFactory } from './lib/request'
 /* token */
 import { setTokenFromUrl, getToken, removeToken } from './lib/token';
 
-export default {
+export {
   getQueryObject,
   serviceFactory,
   setTokenFromUrl,

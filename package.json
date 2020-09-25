@@ -1,6 +1,6 @@
 {
   "name": "@yeepay/client-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "shared utilities for yeepay client packages",
   "main": "dist/client-utils.min.js",
   "module": "dist/client-utils.esm.js",
