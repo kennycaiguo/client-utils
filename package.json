@@ -1,0 +1,39 @@
+{
+  "name": "@yeepay/client-utils",
+  "version": "0.0.1",
+  "description": "shared utilities for yeepay client packages",
+  "main": "dist/client-utils.min.js",
+  "module": "dist/client-utils.esm.js",
+  "types": "types.d.ts",
+  "global": "YeepayClientUtils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./rollup.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeePay-UED/client-utils.git"
+  },
+  "keywords": [
+    "yeepay",
+    "utils",
+    "client-uitils"
+  ],
+  "author": "Angus Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeePay-UED/client-utils/issues"
+  },
+  "homepage": "https://github.com/YeePay-UED/client-utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.60.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-minify-es": "^1.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "js-cookie": "^2.2.1"
+  }
+}
